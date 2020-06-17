@@ -275,7 +275,7 @@ window.onload = function () {
     }
 
     function animation() {
-        // Закрутим фигуру!!!
+        // Закрутить фигуру
         SCENE.forEach(subject => {
             if (subject.animation) {
                 for (let key in subject.animation) {                  
